@@ -145,6 +145,14 @@ h4{
     margin: 50px auto;
 }
 
+
+
+.img-left{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
 .img-center{
     display:block;
     margin: 20px auto;
