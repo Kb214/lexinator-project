@@ -145,17 +145,36 @@ h4{
     margin: 50px auto;
 }
 
-
+/* img{
+    position:relative;
+}
 
 .img-left{
-    float: left;
+    position:relative;
+    left: 400px;
+    margin-left: 250px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-right{
+    float: right;
+    position:relative;
+    left: 1050px;
+    bottom: 200px;
+    
+} */
+
+.img-row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .img-center{
     display:block;
     margin: 20px auto;
+    /* margin-left: 0px; */
     border: 10px ridge #A17800;
     padding:2px;
     transition:.2s;
